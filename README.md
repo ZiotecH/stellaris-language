@@ -1,2 +1,1 @@
-# stellaris-language
-Adds snippets for Stellaris modding.
+[2021-05-26] Initial setup.
