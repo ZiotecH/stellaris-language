@@ -1,0 +1,38 @@
+{
+    "contributors": [
+        "Danboy Bebace"
+    ],
+    "name": "stellaris-language",
+    "displayName": "Stellaris Mod Snippets",
+    "description": "Support for Stellaris snippets.",
+    "publisher": "ziotech",
+    "version": "0.0.3",
+    "repository": "https://github.com/ZiotecH/stellaris-language",
+    "engines": {
+        "vscode": "^1.56.0"
+    },
+    "categories": [
+        "Programming Languages",
+        "Snippets"
+    ],
+    "contributes": {
+        "languages": [
+            {
+                "id": "stellaris",
+                "aliases": [
+                    ""
+                ],
+                "extensions": [
+                    "txt"
+                ],
+                "configuration": "./language-configuration.json"
+            }       
+        ],
+        "snippets": [
+            {
+                "language": "stellaris",
+                "path": "./snippets/snippets.code-snippets"
+            }
+        ]
+    }
+}
