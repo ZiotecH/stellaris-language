@@ -1,9 +1,3 @@
-# Change Log
+[2021-05-26] Initial setup.
 
-All notable changes to the "stellaris-language" extension will be documented in this file.
-
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
-
-## [Unreleased]
-
-- Initial release
+[2021-06-02] Updated snippets to accept all parts of a modifier.
