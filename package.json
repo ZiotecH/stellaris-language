@@ -6,7 +6,7 @@
   "displayName": "Stellaris Mod Snippets",
   "description": "Support for Stellaris snippets.",
   "publisher": "ziotech",
-  "version": "0.0.10",
+  "version": "0.0.12",
   "engines": {
     "vscode": "^1.56.0"
   },
@@ -14,45 +14,18 @@
     "Snippets"
   ],
   "contributes": {
-    "languages": [
-      {
-        "id": "stellaris",
-        "aliases": [
-          "",
-          "paradox",
-          "pdxscript"
-        ],
-        "extensions": [
-          "txt"
-        ],
-        "configuration": "./language-configuration.json",
-        "filenamePatterns": [
-          "**/stellaris*/**/*.txt"
-        ]
-      }
-    ],
     "snippets": [
       {
         "language": "stellaris",
         "path": "./snippets/stellaris.json"
       }
-    ],
-    "configurationDefaults": {
-        "[stellaris]": {
-            "files.autoGuessEncoding": true,
-            "editor.quickSuggestions": {
-                "other": true,
-                "comments": false,
-                "strings": true,
-                "snippets": true
-            },
-            "editor.insertSpaces": false,
-            "editor.acceptSuggestionOnEnter": "off"
-        }
-    }
+    ]
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/ZiotecH/stellaris-language.git"
+  },
+  "dependencies": {
+      "tboby.cwtools-vscode":"^0.9.10"
   }
 }
