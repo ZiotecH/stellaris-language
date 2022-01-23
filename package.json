@@ -1,31 +1,58 @@
 {
-    "contributors": [
-        "Danboy Bebace"
-    ],
-    "name": "stellaris-snippets",
-    "displayName": "Stellaris Mod Snippets",
-    "description": "Support for Stellaris snippets.",
-    "publisher": "ziotech",
-    "version": "0.0.7",
-    "engines": {
-        "vscode": "^1.56.0"
-    },
-    "categories": ["Snippets"],
-    "contributes": {
-        "languages": [
-            {
-                "id": "stellaris"
-            }       
+  "contributors": [
+    "Danboy Bebace"
+  ],
+  "name": "stellaris-snippets",
+  "displayName": "Stellaris Mod Snippets",
+  "description": "Support for Stellaris snippets.",
+  "publisher": "ziotech",
+  "version": "0.0.9",
+  "engines": {
+    "vscode": "^1.56.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "stellaris",
+        "aliases": [
+          "",
+          "paradox",
+          "pdxscript"
         ],
-        "snippets": [
-            {
-                "language": "stellaris",
-                "path": "./snippets/snippets.json"
-            }
+        "extensions": [
+          "txt"
+        ],
+        "configuration": "./language-configuration.json",
+        "filenamePatterns": [
+          "**/stellaris*/**/*.txt"
         ]
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/ZiotecH/stellaris-language.git"
+      }
+    ],
+    "snippets": [
+      {
+        "language": "stellaris",
+        "path": "./snippets/snippets.json"
+      }
+    ],
+    "configurationDefaults": {
+        "[stellaris]": {
+            "files.autoGuessEncoding": true,
+            "editor.quickSuggestions": {
+                "other": true,
+                "comments": false,
+                "strings": true,
+                "snippets": true
+            },
+            "editor.insertSpaces": false,
+            "editor.acceptSuggestionOnEnter": "off"
+        }
     }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ZiotecH/stellaris-language.git"
+  }
 }
