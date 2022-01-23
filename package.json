@@ -6,7 +6,7 @@
   "displayName": "Stellaris Mod Snippets",
   "description": "Support for Stellaris snippets.",
   "publisher": "ziotech",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "engines": {
     "vscode": "^1.56.0"
   },
@@ -34,7 +34,7 @@
     "snippets": [
       {
         "language": "stellaris",
-        "path": "./snippets/snippets.json"
+        "path": "./snippets/stellaris.json"
       }
     ],
     "configurationDefaults": {
