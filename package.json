@@ -22,7 +22,7 @@
                 "language": "stellaris",
                 "path": "./snippets/snippets.json"
             }
-        ],
+        ]
     },
     "repository": {
         "type": "git",
