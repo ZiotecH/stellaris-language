@@ -6,7 +6,7 @@
     "displayName": "Stellaris Mod Snippets",
     "description": "Support for Stellaris snippets.",
     "publisher": "ziotech",
-    "version": "0.0.3",
+    "version": "0.0.5",
     "repository": "https://github.com/ZiotecH/stellaris-language",
     "engines": {
         "vscode": "^1.56.0"
